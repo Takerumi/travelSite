@@ -20,6 +20,75 @@
           />
         </a>
       </div>
+      <ul class="page-header__menu nav-menu">
+        <li class="nav-menu__item">
+          <a href="#" class="nav-menu__link">Destination</a>
+        </li>
+        <li class="nav-menu__item">
+          <a href="#" class="nav-menu__link">Offer</a>
+        </li>
+        <li class="nav-menu__item">
+          <a href="#" class="nav-menu__link">Tour</a>
+        </li>
+        <li class="nav-menu__item">
+          <a href="#" class="nav-menu__link">Blog</a>
+        </li>
+      </ul>
+      <ul class="page-header__menu user-menu">
+        <li class="user-menu__item">
+          <a href="#" class="user-menu__link">My Account</a>
+        </li>
+        <li class="user-menu__item">
+          <a href="#" class="user-menu__link" aria-label="Search"></a>
+        </li>
+      </ul>
     </header>
+    <h1 class="visually-hidden">Tours to anywhere in the world</h1>
+    <section class="hero">
+      <div class="hero__slider slider">
+        <div class="slider__wrapper">
+          <div class="slider__slide visually-hidden" aria-label="First Slide">
+            <h2 class="slider__title">It's Time To Explore The World</h2>
+            <button class="slider__button button">Plan Your Trip</button>
+          </div>
+          <div class="slider__slide visually-hidden" aria-label="Second Slide">
+            <h2 class="slider__title">It's Time To Explore The World</h2>
+            <button class="slider__button button">Plan Your Trip</button>
+          </div>
+          <div class="slider__slide" aria-label="Third Slide">
+            <h2 class="slider__title">It's Time To Explore The World</h2>
+            <button class="slider__button button">Plan Your Trip</button>
+          </div>
+          <div class="slider__buttons">
+            <button class="slider__prev"></button>
+            <button class="slider__next"></button>
+            <div class="slider__indicator">03</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="booking">
+      <form action="" class="booking__form form">
+        <label class="form__label">
+          Destinations
+          <select name="destination">
+            <option value="Egypt">Arab Egypt</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Canada">Canada</option>
+            <option value="France">France</option>
+          </select>
+        </label>
+        <label class="form__label">
+          Check In
+          <input type="date" name="checkIn" value="2021-02-01" />
+        </label>
+        <label class="form__label">
+          Price Range
+          <input type="range" name="price" min="500" max="100000" />
+        </label>
+        <button class="form__button button"></button>
+      </form>
+    </section>
   </body>
 </html>
