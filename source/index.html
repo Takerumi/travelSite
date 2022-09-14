@@ -71,7 +71,7 @@
       <form action="" class="booking__form form">
         <label class="form__label">
           Destinations
-          <select name="destination">
+          <select name="destination" class="form__dest">
             <option value="Egypt">Arab Egypt</option>
             <option value="Turkey">Turkey</option>
             <option value="Switzerland">Switzerland</option>
@@ -81,14 +81,38 @@
         </label>
         <label class="form__label">
           Check In
-          <input type="date" name="checkIn" value="2021-02-01" />
+          <input class="form__date" type="date" name="checkIn" value="2021-02-01" />
         </label>
         <label class="form__label">
           Price Range
-          <input type="range" name="price" min="500" max="100000" />
-        </label>
-        <button class="form__button button"></button>
+          <input class="form__price" type="range" name="price" min="500" max="100000" />
+        </label class="form__label">
+        <button class="form__button button">Discover Now</button>
       </form>
+    </section>
+    <section class="benefits">
+      <div class="benefits__wrapper">
+        <div class="benefits__card">
+          <span class="benefits__image"></span>
+          <h5 class="benefits__title">Choose Destination</h5>
+          <p class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nesciunt?</p>
+        </div>
+        <div class="benefits__card">
+          <span class="benefits__image"></span>
+          <h5 class="benefits__title">Explore The Place</h5>
+          <p class="benefits__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, praesentium!</p>
+        </div>
+        <div class="benefits__card">
+          <span class="benefits__image"></span>
+          <h5 class="benefits__title">Start Your Journey</h5>
+          <p class="benefits__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, saepe.</p>
+        </div>
+        <div class="benefits__card">
+          <span class="benefits__image"></span>
+          <h5 class="benefits__title">Let's Enjoy</h5>
+          <p class="benefits__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
+        </div>
+      </div>
     </section>
   </body>
 </html>
