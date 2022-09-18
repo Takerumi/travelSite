@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Travel | Time To Explore</title>
   </head>
+
   <body class="page-index">
     <header class="page-header container">
-        <a href="index.html" class="page-header__logo-link">
-          <img
-            src="img/logo.svg"
-            alt="Travel Logo"
-            class="page-header__logo-image logo"
-          />
-        </a>
+      <a href="index.html" class="page-header__logo-link">
+        <img
+          src="img/logo.svg"
+          alt="Travel Logo"
+          class="page-header__logo-image logo"
+        />
+      </a>
       <ul class="page-header__menu nav-menu">
         <li class="nav-menu__item">
           <a href="#" class="nav-menu__link">Destination</a>
@@ -41,20 +42,23 @@
         </li>
       </ul>
     </header>
+
     <h1 class="visually-hidden">Tours to anywhere in the world</h1>
+
     <section class="hero">
+      <h2 class="visually-hidden">It's Time To Explore The World</h2>
       <div class="hero__slider slider">
         <div class="slider__wrapper">
-          <div class="slider__slide visually-hidden" aria-label="First Slide">
-            <h2 class="slider__title">It's Time To Explore The World</h2>
+          <div class="slider__slide visually-hidden">
+            <h3 class="slider__title">It's Time To Explore The World</h3>
             <button class="slider__button button">Plan Your Trip</button>
           </div>
-          <div class="slider__slide visually-hidden" aria-label="Second Slide">
-            <h2 class="slider__title">It's Time To Explore The World</h2>
+          <div class="slider__slide visually-hidden">
+            <h3 class="slider__title">It's Time To Explore The World</h3>
             <button class="slider__button button">Plan Your Trip</button>
           </div>
-          <div class="slider__slide" aria-label="Third Slide">
-            <h2 class="slider__title">It's Time To Explore The World</h2>
+          <div class="slider__slide">
+            <h3 class="slider__title">It's Time To Explore The World</h3>
             <button class="slider__button button">Plan Your Trip</button>
           </div>
           <div class="slider__buttons">
@@ -65,8 +69,10 @@
         </div>
       </div>
     </section>
+
     <section class="booking">
-      <form action="" class="booking__form form">
+      <h2 class="visually-hidden">Book a tour for yourself</h2>
+      <form action="#" class="booking__form form">
         <label class="form__label">
           Destinations
           <select name="destination" class="form__dest">
@@ -79,158 +85,228 @@
         </label>
         <label class="form__label">
           Check In
-          <input class="form__date" type="date" name="checkIn" value="2021-02-01" />
+          <input
+            class="form__date"
+            type="date"
+            name="checkIn"
+            value="2021-02-01"
+          />
         </label>
         <label class="form__label">
           Price Range
-          <input class="form__price" type="range" name="price" min="500" max="100000" />
-        </label class="form__label">
+          <input
+            class="form__price"
+            type="range"
+            name="price"
+            min="500"
+            max="100000"
+          />
+        </label>
         <button class="form__button button">Discover Now</button>
       </form>
     </section>
+
     <section class="benefits">
+      <h2 class="visually-hidden">How it works?</h2>
       <div class="benefits__container">
         <div class="benefits__card">
           <div class="benefits__image"></div>
-          <h4 class="benefits__title">Choose Destination</h4>
-          <p class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nesciunt?</p>
+          <h3 class="benefits__title">Choose Destination</h3>
+          <p class="benefits__descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+            nesciunt?
+          </p>
         </div>
         <div class="benefits__card">
           <div class="benefits__image"></div>
-          <h4 class="benefits__title">Explore The Place</h4>
-          <p class="benefits__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, praesentium!</p>
+          <h3 class="benefits__title">Explore The Place</h3>
+          <p class="benefits__descr">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            praesentium!
+          </p>
         </div>
         <div class="benefits__card">
           <div class="benefits__image"></div>
-          <h4 class="benefits__title">Start Your Journey</h4>
-          <p class="benefits__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, saepe.</p>
+          <h3 class="benefits__title">Start Your Journey</h3>
+          <p class="benefits__descr">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere,
+            saepe.
+          </p>
         </div>
         <div class="benefits__card">
           <div class="benefits__image"></div>
-          <h4 class="benefits__title">Let's Enjoy</h4>
-          <p class="benefits__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
+          <h3 class="benefits__title">Let's Enjoy</h3>
+          <p class="benefits__descr">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+            excepturi!
+          </p>
         </div>
       </div>
     </section>
 
     <section class="places">
+      <h2 class="visually-hidden">Top destinations</h2>
       <div class="places__container">
         <div class="places__text-block">
-          <h3 class="places__title title">Top <span class="places__title--red">Destinations</span>
-            In The World</h3>
-            <p class="places__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cupiditate perferendis molestiae labore natus mollitia dolore, perspiciatis corrupti optio itaque reprehenderit? Ab consequuntur enim quam.</p>
-            <button class="button places__button">Discover More</button>
+          <h3 class="places__title title">
+            Top <span class="places__title--red">Destinations</span> In The
+            World
+          </h3>
+          <p class="places__descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            cupiditate perferendis molestiae labore natus mollitia dolore,
+            perspiciatis corrupti optio itaque reprehenderit? Ab consequuntur
+            enim quam.
+          </p>
+          <button class="button places__button">Discover More</button>
         </div>
         <div class="places__cards">
           <div class="places__card">
-            <p class="places__name">Cuba City</p>
+            <h4 class="places__name">Cuba City</h4>
           </div>
           <div class="places__card">
-            <p class="places__name">Paris</p>
+            <h4 class="places__name">Paris</h4>
           </div>
           <div class="places__card">
-            <p class="places__name">Japan</p>
+            <h4 class="places__name">Japan</h4>
           </div>
         </div>
       </div>
     </section>
+
     <section class="advantages">
+      <h2 class="visually-hidden">About us</h2>
       <div class="advantages__container">
-      <div class="advantages__illustration"></div>
-      <div class="advantages__text-block">
-        <h3 class="advantages__title title">We Offering In Total 793 Tours Out The World</h3>
-        <div class="advantages__block">
-          <span class="advantages__icon"></span>
-          <h4 class="advantages__title">Best Travel Guide Always For Your Services</h4>
-          <p class="advantages__descr">Travel has helped us to understandsa the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to understand the meaning of life</p>
-        </div>
-        <div class="advantages__block">
-          <span class="advantages__icon"></span>
-          <h4 class="advantages__title">World Class Services Provide For You</h4>
-          <p class="advantages__descr"></p>
-        </div>
-        <div class="advantages__block">
-          <span class="advantages__icon"></span>
-          <h4 class="advantages__title">24/7 Strong Customer Support</h4>
-          <p class="advantages__descr"></p>
+        <div class="advantages__illustration"></div>
+        <div class="advantages__text-block">
+          <h3 class="advantages__title title">
+            We Offering In Total 793 Tours Out The World
+          </h3>
+          <div class="advantages__block">
+            <span class="advantages__icon"></span>
+            <h4 class="advantages__title">
+              Best Travel Guide Always For Your Services
+            </h4>
+            <p class="advantages__descr">
+              Travel has helped us to understandsa the meaning of life and it
+              has helped us become better people. Each time we travel, we see
+              the world with new eyes. Travel has helped us to understand the
+              meaning of life
+            </p>
+          </div>
+          <div class="advantages__block">
+            <span class="advantages__icon"></span>
+            <h4 class="advantages__title">
+              World Class Services Provide For You
+            </h4>
+            <p class="advantages__descr"></p>
+          </div>
+          <div class="advantages__block">
+            <span class="advantages__icon"></span>
+            <h4 class="advantages__title">24/7 Strong Customer Support</h4>
+            <p class="advantages__descr"></p>
+          </div>
         </div>
       </div>
-    </div>
     </section>
+
     <section class="destinations">
+      <h2 class="visually-hidden">Destinations</h2>
       <div class="destinations__container">
-      <h3 class="destinations__title title">Choose Your Destination</h3>
-      <span class="destinations__triangle"></span>
-      <span class="destinations__quater-circle"></span>
-      <div class="destinations__wrapper">
-        <div class="destinations__card card">
-          <div class="card__descr">
-            <h4 class="card__title">Santorini, Oia Greece</h4>
-            <p class="card__price">$2000</p>
-            <p class="card__rating">
-              <span class="card__stars"></span>
-              5k Reviews
-            </p>
-            <button class="card__button button button--short"></button>
+        <h3 class="destinations__title title">Choose Your Destination</h3>
+        <span class="destinations__triangle"></span>
+        <span class="destinations__quater-circle"></span>
+        <div class="destinations__wrapper">
+          <div class="destinations__card card">
+            <div class="card__descr">
+              <h4 class="card__title">Santorini, Oia Greece</h4>
+              <p class="card__price">$2000</p>
+              <p class="card__rating">
+                <span class="card__stars"></span>
+                5k Reviews
+              </p>
+              <button class="card__button button button--short"></button>
+            </div>
+          </div>
+          <div class="destinations__card card">
+            <div class="card__descr">
+              <h4 class="card__title">Santorini, Oia Greece</h4>
+              <p class="card__price">$2000</p>
+              <p class="card__rating">
+                <span class="card__stars"></span>
+                5k Reviews
+              </p>
+              <button class="card__button button button--short"></button>
+            </div>
+          </div>
+          <div class="destinations__card card">
+            <div class="card__descr">
+              <h4 class="card__title">Santorini, Oia Greece</h4>
+              <p class="card__price">$2000</p>
+              <p class="card__rating">
+                <span class="card__stars"></span>
+                5k Reviews
+              </p>
+              <button class="card__button button button--short"></button>
+            </div>
           </div>
         </div>
-        <div class="destinations__card card">
-          <div class="card__descr">
-            <h4 class="card__title">Santorini, Oia Greece</h4>
-            <p class="card__price">$2000</p>
-            <p class="card__rating">
-              <span class="card__stars"></span>
-              5k Reviews
-            </p>
-            <button class="card__button button button--short"></button>
-          </div>
-        </div>
-        <div class="destinations__card card">
-          <div class="card__descr">
-            <h4 class="card__title">Santorini, Oia Greece</h4>
-            <p class="card__price">$2000</p>
-            <p class="card__rating">
-              <span class="card__stars"></span>
-              5k Reviews
-            </p>
-            <button class="card__button button button--short"></button>
-          </div>
-        </div>
-    </div>
-    <button class="destinations__button button">View All Places</button>
+        <button class="destinations__button button">View All Places</button>
       </div>
-    </div>
     </section>
+
     <section class="testimonials">
+      <h2 class="visually-hidden">Testimonials</h2>
       <div class="testimonials__container">
-      <h3 class="testimonials__title title">What Our Happy Customers
-        Say About Us</h3>
+        <h3 class="testimonials__title title">
+          What Our Happy Customers Say About Us
+        </h3>
         <div class="testimonials__customers-img-left"></div>
         <div class="testimonials__slider slider">
           <div class="slider__wrapper">
             <div class="slider__slide visually-hidden">
               <span class="slider__customer-picture"></span>
-              <h5 class="slider__customer-name">Md Shamim Hossain</h5>
+              <h4 class="slider__customer-name">Md Shamim Hossain</h4>
               <p class="slider__customer-role">UI/UX Designer</p>
-              <p class="slider__text">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+              <p class="slider__text">
+                Jetrips Hotel is an excellent choice for anybody for considering
+                hosting their events there. Top levela facilities and excellent
+                staff make for a brilliantad environment within which to
+                operate. The hotel is meticulous in its planning.
+              </p>
             </div>
             <div class="slider__slide visually-hidden">
               <span class="slider__customer-picture"></span>
-              <h5 class="slider__customer-name">Md Shamim Hossain</h5>
+              <h4 class="slider__customer-name">Md Shamim Hossain</h4>
               <p class="slider__customer-role">UI/UX Designer</p>
-              <p class="slider__text">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+              <p class="slider__text">
+                Jetrips Hotel is an excellent choice for anybody for considering
+                hosting their events there. Top levela facilities and excellent
+                staff make for a brilliantad environment within which to
+                operate. The hotel is meticulous in its planning.
+              </p>
             </div>
             <div class="slider__slide">
               <span class="slider__customer-picture"></span>
-              <h5 class="slider__customer-name">Md Shamim Hossain</h5>
+              <h4 class="slider__customer-name">Md Shamim Hossain</h4>
               <p class="slider__customer-role">UI/UX Designer</p>
-              <p class="slider__text">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+              <p class="slider__text">
+                Jetrips Hotel is an excellent choice for anybody for considering
+                hosting their events there. Top levela facilities and excellent
+                staff make for a brilliantad environment within which to
+                operate. The hotel is meticulous in its planning.
+              </p>
             </div>
             <div class="slider__slide visually-hidden">
               <span class="slider__customer-picture"></span>
-              <h5 class="slider__customer-name">Md Shamim Hossain</h5>
+              <h4 class="slider__customer-name">Md Shamim Hossain</h4>
               <p class="slider__customer-role">UI/UX Designer</p>
-              <p class="slider__text">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+              <p class="slider__text">
+                Jetrips Hotel is an excellent choice for anybody for considering
+                hosting their events there. Top levela facilities and excellent
+                staff make for a brilliantad environment within which to
+                operate. The hotel is meticulous in its planning.
+              </p>
             </div>
           </div>
           <div class="slider__dots">
@@ -242,16 +318,26 @@
         </div>
       </div>
     </section>
+
     <section class="download">
+      <h2 class="visually-hidden">Download apps</h2>
       <div class="download__container">
-        <h3 class="download__title title">Download Now Travel
-          Community Apps</h3>
+        <h3 class="download__title title">
+          Download Now Travel Community Apps
+        </h3>
         <div class="download__wrapper">
-          <a href="#" class="download__button download__button--google-play"></a>
-          <a href="#" class="download__button download__button--apple-store"></a>
+          <a
+            href="#"
+            class="download__button download__button--google-play"
+          ></a>
+          <a
+            href="#"
+            class="download__button download__button--apple-store"
+          ></a>
         </div>
       </div>
     </section>
+
     <footer class="footer">
       <div class="footer__container">
         <address class="footer__company-info">
@@ -262,13 +348,17 @@
               class="page-header__logo-image logo"
             />
           </a>
-          <p class="footer__text">You can dream, create, design, and buildsa the most wonderful place.</p>
+          <p class="footer__text">
+            You can dream, create, design, and buildsa the most wonderful place.
+          </p>
           <div class="footer__phones">
             <a href="tel:+0123-456-987">+0123 456 987</a>,
             <a href="tel:+0123-456-987">+0123 456 987</a>
           </div>
           <div class="footer__email">
-            <a href = "mailto: yourmailaddress@gmail.com">yourmailaddress@gmail.com</a>
+            <a href="mailto:yourmailaddress@gmail.com"
+              >yourmailaddress@gmail.com</a
+            >
           </div>
           <div class="footer__website">
             <a href="www.yourwebsitename.com">www.yourwebsitename.com</a>
@@ -297,13 +387,16 @@
         </div>
         <div class="footer__newsletter">
           <h4 class="footer__title">Newsletter</h4>
-          <form action="">
-            <input type="email">
+          <form action="#">
+            <input type="email" />
             <button class="footer__button button">Subscribe Now</button>
           </form>
         </div>
-        <hr>
-        <p class="footer__copyright">Copyright @2022 Created By <a href="https://github.com/Takerumi">Anastasia Ermolenko</a></p>
+        <hr />
+        <p class="footer__copyright">
+          Copyright @2022 Created By
+          <a href="https://github.com/Takerumi">Anastasia Ermolenko</a>
+        </p>
       </div>
     </footer>
   </body>
