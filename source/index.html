@@ -11,36 +11,45 @@
   </head>
 
   <body class="page-index">
-    <header class="page-header container">
+    <header class="page-header">
       <a href="index.html" class="page-header__logo-link">
         <img
           src="img/logo.svg"
           alt="Travel Logo"
           class="page-header__logo-image logo"
+          width="174"
+          height="45"
         />
       </a>
-      <ul class="page-header__menu nav-menu">
-        <li class="nav-menu__item">
-          <a href="#" class="nav-menu__link">Destination</a>
-        </li>
-        <li class="nav-menu__item">
-          <a href="#" class="nav-menu__link">Offer</a>
-        </li>
-        <li class="nav-menu__item">
-          <a href="#" class="nav-menu__link">Tour</a>
-        </li>
-        <li class="nav-menu__item">
-          <a href="#" class="nav-menu__link">Blog</a>
-        </li>
-      </ul>
-      <ul class="page-header__menu user-menu">
-        <li class="user-menu__item">
-          <a href="#" class="user-menu__link">My Account</a>
-        </li>
-        <li class="user-menu__item">
-          <a href="#" class="user-menu__link" aria-label="Search"></a>
-        </li>
-      </ul>
+      <button
+        class="page-header__toggle page-header__toggle--nojs page-header__toggle--closed"
+      >
+        <span class="visually-hidden">Show menu</span>
+      </button>
+      <nav class="page-header__menu nav-menu nav-menu--nojs nav-menu--closed">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Destination</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Offer</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Tour</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Blog</a>
+          </li>
+        </ul>
+        <ul class="nav-menu__list">
+          <li class="user-menu__item user-menu__item--login">
+            <a href="#" class="user-menu__link">My Account</a>
+          </li>
+          <li class="user-menu__item">
+            <a href="#" class="user-menu__link" aria-label="Search"></a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <h1 class="visually-hidden">Tours to anywhere in the world</h1>

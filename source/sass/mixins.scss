@@ -1,0 +1,26 @@
+@function breakpoint-min($name, $breakpoints: $grid-breakpoints) {
+  $min: map-get($breakpoints, $name);
+  @return if($min != 0, $min, null);
+}
+
+@mixin media-breakpoint-up($name, $breakpoints: $grid-breakpoints) {
+  $min: breakpoint-min($name, $breakpoints);
+  @if $min {
+    @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin make-max-width-container(
+  $max-widths: $container-max-widths,
+  $breakponts: $grid-breakpoints
+) {
+  @each $breakpont, $max-width in $max-widths {
+    @include media-breakpoint-up($breakpont, $breakponts) {
+      max-width: $max-width;
+    }
+  }
+}

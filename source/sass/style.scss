@@ -1,4 +1,8 @@
 @import 'normalize';
-@import 'global';
-@import 'variables';
 @import 'fonts';
+@import 'variables';
+@import 'mixins';
+@import 'global';
+
+@import 'blocks/header';
+@import 'blocks/logo';
