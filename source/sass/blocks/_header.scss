@@ -57,7 +57,7 @@
     text-decoration: none;
     font-family: 'Noto Serif';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     color: $main-text;
     padding-top: 10px;
@@ -85,9 +85,9 @@
   &__link {
     display: block;
     text-decoration: none;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', 'Georgia', serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     color: $main-text;
     padding-top: 10px;
