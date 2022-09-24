@@ -1,0 +1,13 @@
+.button {
+  min-width: 200px;
+  min-height: 60px;
+  background-color: $main-red;
+  border: none;
+  color: $main-white;
+  font-family: 'Noto Serif', 'Georgia', serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.button--short {
+}
