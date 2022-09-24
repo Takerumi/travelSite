@@ -1,5 +1,8 @@
 .places {
+  padding-top: 50px;
   &__container {
+    @extend .container;
+    position: relative;
   }
 
   &__text-block {
