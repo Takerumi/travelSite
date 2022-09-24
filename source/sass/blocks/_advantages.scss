@@ -1,0 +1,81 @@
+.advantages {
+  &__container {
+    @extend .container;
+    position: relative;
+  }
+
+  &__illustration {
+    background-image: url('../img/backgrounds/lighthouse@1x.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    max-width: 770px;
+    height: auto;
+    min-height: 300px;
+  }
+
+  &__text-block {
+  }
+
+  &__heading {
+    line-height: 1.35em;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    font-family: 'Noto Serif', 'Georgia', serif;
+    font-weight: 600;
+    // for large resolutions:
+    // font-size: 2.4rem;
+    font-size: 2rem;
+    &--first {
+      background-image: url('../img/icons/guide.svg');
+      background-position: left center;
+      background-size: 50px 50px;
+      background-repeat: no-repeat;
+      padding-left: 60px;
+      &:hover {
+        filter: drop-shadow(0px 10px 15px rgba(255, 113, 91, 0.25));
+      }
+    }
+    &--second {
+      background-image: url('../img/icons/world.svg');
+      background-position: left center;
+      background-size: 50px 50px;
+      background-repeat: no-repeat;
+      padding-left: 60px;
+      &:hover {
+        filter: drop-shadow(0px 10px 15px rgba(47, 119, 35, 0.25));
+      }
+    }
+    &--third {
+      background-image: url('../img/icons/support.svg');
+      background-position: left center;
+      background-size: 50px 50px;
+      background-repeat: no-repeat;
+      padding-left: 60px;
+      &:hover {
+        filter: drop-shadow(0px 10px 15px rgba(165, 123, 15, 0.25));
+      }
+    }
+  }
+
+  &__block {
+  }
+
+  &__icon {
+  }
+
+  &__descr {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    // for large resolutions:
+    // font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.44em;
+    color: $secondary-text;
+    max-width: 600px;
+  }
+}
