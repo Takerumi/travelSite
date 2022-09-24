@@ -10,4 +10,27 @@
   text-align: center;
 }
 .button--short {
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+  &::before {
+    content: '';
+    width: 2px;
+    height: 10px;
+    background-color: $main-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  &::after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background-color: $main-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
