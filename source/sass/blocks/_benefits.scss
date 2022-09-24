@@ -9,6 +9,9 @@
   &__card {
     background-color: $main-gray;
     max-width: 326px;
+    min-height: 326px;
+    padding-top: 20px;
+    margin-bottom: 30px;
     &:hover {
       background-color: $main-white;
       filter: drop-shadow(0px 12px 30px rgba(200, 180, 180, 0.2));
@@ -20,6 +23,7 @@
     height: 128px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     background-repeat: no-repeat;
     background-position: center;
     &--map {
@@ -50,6 +54,7 @@
     max-width: 250px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-weight: 400;
     // for large resolutions:
