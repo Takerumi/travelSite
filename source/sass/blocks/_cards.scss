@@ -1,19 +1,71 @@
 .card {
+  //   min-width: 450px;
+  //   max-height: 587px;
+  margin-bottom: 30px;
   &__descr {
+    max-width: 100%;
+    max-height: 105px;
+    display: grid;
+    grid-template-columns: 60px auto 50px;
+    grid-template-rows: 45px 35px;
+    column-gap: 10px;
+    row-gap: 15px;
   }
 
   &__title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: 'Noto Serif', 'Georgia', serif;
+    font-weight: 700;
+    color: $main-text;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: end;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
   }
 
   &__price {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 700;
+    color: $main-red;
+    font-size: 1.6rem;
+    align-self: start;
+    margin-top: 0;
   }
 
   &__rating {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    color: $secondary-text;
+    font-size: 1.6rem;
+    align-self: start;
+    margin-top: 0;
   }
 
   &__stars {
   }
 
   &__button {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
   }
 }
