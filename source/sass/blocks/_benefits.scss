@@ -39,7 +39,9 @@
   &__title {
     font-family: 'Noto Serif', 'Georgia', serif;
     font-weight: 700;
-    font-size: 2.4rem;
+    // for large resolutions:
+    // font-size: 2.4rem;
+    font-size: 2.2rem;
     text-align: center;
     color: $main-text;
   }
@@ -50,7 +52,9 @@
     margin-right: auto;
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-weight: 400;
-    font-size: 1.8rem;
+    // for large resolutions:
+    // font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.44em;
     text-align: center;
     color: $secondary-text;

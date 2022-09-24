@@ -9,12 +9,19 @@
   }
 
   &__title {
+    line-height: 1.35em;
   }
 
   &__title--red {
+    color: $main-red;
   }
 
   &__descr {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    // font-size: 1.8rem;
+    font-size: 1.6rem;
+    color: $secondary-text;
   }
 
   &__button {
