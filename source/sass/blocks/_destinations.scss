@@ -1,5 +1,9 @@
 .destinations {
   margin-bottom: 80px;
+  background-image: url('../img/backgrounds/green-ellipse@1x.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top -15px right -65px;
   &__container {
     @extend .container;
     position: relative;
@@ -11,9 +15,11 @@
   }
 
   &__triangle {
+    visibility: hidden;
   }
 
   &__quater-circle {
+    visibility: hidden;
   }
 
   &__wrapper {
