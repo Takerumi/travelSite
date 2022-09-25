@@ -1,0 +1,37 @@
+.testimonials {
+  margin-bottom: 50px;
+  background-image: url('../img/backgrounds/blue-ellipse@1x.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top -55px left -65px;
+  &__container {
+    @extend .container;
+    position: relative;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__customers-img-left {
+    visibility: hidden;
+  }
+
+  &__customers-img-right {
+    visibility: hidden;
+  }
+
+  &__slider {
+    margin-top: 50px;
+  }
+
+  &__circle-bg {
+    background-image: url('../img/backgrounds/pink-ellipse.svg');
+    background-size: contain;
+    max-width: 100%;
+    max-height: 242px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: bottom 35px right 0px;
+  }
+}
