@@ -1,0 +1,7 @@
+.booking {
+  @extend .container;
+  position: relative;
+  margin-bottom: 80px;
+  &__form {
+  }
+}

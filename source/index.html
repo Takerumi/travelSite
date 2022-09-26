@@ -128,13 +128,14 @@
         </label>
         <label class="form__label">
           Price Range
-          <input
-            class="form__price"
-            type="range"
-            name="price"
-            min="500"
-            max="100000"
-          />
+          <select name="price" class="form__price">
+            <option value="500-1000">$500 - $1,000</option>
+            <option value="1001-5000">$1,001 - $5,000</option>
+            <option value="5001-15000">$5,001 - $15,000</option>
+            <option value="15001-30000">$15,001 - $30,000</option>
+            <option value="30001-50000">$30,001 - $50,000</option>
+            <option value="50001-100000">$50,001 - $100,000</option>
+          </select>
         </label>
         <button class="form__button button">Discover Now</button>
       </form>

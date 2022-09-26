@@ -62,6 +62,9 @@
     color: $main-text;
     padding-top: 10px;
     padding-bottom: 10px;
+    &:hover {
+      color: $main-red;
+    }
   }
 
   &--nojs {

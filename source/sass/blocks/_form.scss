@@ -1,0 +1,104 @@
+.form {
+  max-width: 1185px;
+  min-height: 154px;
+  background-color: $main-white;
+  box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__label {
+    display: block;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    color: $secondary-text;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    width: 240px;
+  }
+
+  &__dest {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #f5ebe9;
+    border-radius: 0.5px;
+    background-color: $main-white;
+    color: $main-red;
+    font-family: 'Noto Serif', 'Georgia', serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.39em;
+    padding-left: 5px;
+    margin-top: 7px;
+    appearance: none;
+    width: 100%;
+    height: 50px;
+    background-image: url('../img/icons/down-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 14px 8px;
+    background-position: right 2px center;
+    &:focus {
+      outline: 2px solid $main-red;
+      border-radius: 2px;
+    }
+  }
+
+  &__date {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #f5ebe9;
+    border-radius: 0.5px;
+    background-color: $main-white;
+    color: $main-red;
+    width: 240px;
+    height: 50px;
+    font-family: 'Noto Serif', 'Georgia', serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.39em;
+    padding-left: 5px;
+    margin-top: 7px;
+    &:focus {
+      outline: 2px solid $main-red;
+      border-radius: 2px;
+    }
+  }
+
+  ::-webkit-calendar-picker-indicator {
+    background-image: url('../img/icons/calendar.svg');
+  }
+
+  &__price {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #f5ebe9;
+    border-radius: 0.5px;
+    background-color: $main-white;
+    color: $main-red;
+    font-family: 'Noto Serif', 'Georgia', serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.39em;
+    padding-left: 5px;
+    margin-top: 7px;
+    appearance: none;
+    width: 240px;
+    height: 50px;
+    background-image: url('../img/icons/dollar-sign.svg');
+    background-repeat: no-repeat;
+    background-size: 9px 15px;
+    background-position: right 5px center;
+    &:focus {
+      outline: 2px solid $main-red;
+      border-radius: 2px;
+    }
+  }
+
+  &__button {
+    margin-top: 20px;
+  }
+}
